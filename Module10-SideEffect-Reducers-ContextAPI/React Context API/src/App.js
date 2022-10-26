@@ -2,10 +2,10 @@
  * @author omeraydmr
  * @email osilix1@gmail.com
  * @create date 2022-10-26 23:07:12
- * @modify date 2022-10-27 00:43:20
+ * @modify date 2022-10-27 01:23:37
  */
 
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 
 import Login from "./components/Login/Login";
 import Home from "./components/Home/Home";
@@ -52,7 +52,7 @@ function App() {
   //         {!isLoggedIn && <Login onLogin={loginHandler} />}
   //         {isLoggedIn && <Home onLogout={logoutHandler} />}
   //       </main>
-  //     </AuthContext.Provider> 
+  //     </AuthContext.Provider>
   //   </React.Fragment>
   // );
 
