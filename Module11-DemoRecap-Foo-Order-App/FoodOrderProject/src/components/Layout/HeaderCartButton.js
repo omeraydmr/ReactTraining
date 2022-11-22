@@ -1,6 +1,6 @@
 import React from 'react'
 import CartIcon from '../Cart/CartIcon'
-import classes from "./HeaderCartButton.modules.css"
+import classes from "./HeaderCartButton.module.css"
 
 function HeaderCartButton(props) {
   return (
@@ -8,7 +8,7 @@ function HeaderCartButton(props) {
         <span className={classes.icon}>
             <CartIcon />
         </span>
-        <span>Your Card</span>
+        <span>Your Car</span>
         <span className={classes.badge}>
             3
         </span>
